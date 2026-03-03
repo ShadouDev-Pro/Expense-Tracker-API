@@ -3,8 +3,9 @@ const app = express();
 
 app.use(express.json()); // Permite recibir JSON
 
-// Array donde guardaremos los gastos
+// Datos en memoria
 let gastos = [];
+let nextId = 1;
 
 // Ruta principal
 app.get("/", (req, res) => {
@@ -40,7 +41,7 @@ app.post("/gastos", (req, res) => {
   }
 
   const nuevoGasto = {
-    id: gastos.length + 1,
+    id: nextId++,
     descripcion,
     monto,
     fecha: new Date()

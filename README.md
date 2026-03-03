@@ -42,18 +42,8 @@ Este proyecto está diseñado siguiendo buenas prácticas de arquitectura backen
 ```
 expense-tracker-api/
 │
-├── src/
-│   ├── controllers/      # Lógica de negocio
-│   ├── routes/           # Definición de rutas
-│   ├── models/           # Modelos de datos
-│   ├── middlewares/      # Middlewares personalizados
-│   ├── services/         # Servicios reutilizables
-│   ├── utils/            # Funciones auxiliares
-│   └── app.js            # Configuración principal de la aplicación
-│
-├── config/               # Configuración de entorno y base de datos
-├── tests/                # Pruebas unitarias / integración
-├── .env.example          # Variables de entorno de ejemplo
+├── index.js
+├── package-lock.json
 ├── .gitignore
 ├── package.json
 └── README.md

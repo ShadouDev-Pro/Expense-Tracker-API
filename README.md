@@ -56,8 +56,8 @@ expense-tracker-api/
 ### 1️⃣ Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/expense-tracker-api.git
-cd expense-tracker-api
+git clone https://github.com/ShadouDev-Pro/Expense-Tracker-API.git
+cd Expense-Tracker-API
 ```
 
 ### 2️⃣ Instalar dependencias

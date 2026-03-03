@@ -20,6 +20,25 @@ app.listen(3000, () => {
 app.post("/gastos", (req, res) => {
   const { descripcion, monto } = req.body;
 
+  // Validaciones
+  if (!descripcion || descripcion.trim() === "") {
+    return res.status(400).json({
+      error: "La descripción es obligatoria"
+    });
+  }
+
+  if (monto === undefined || typeof monto !== "number") {
+    return res.status(400).json({
+      error: "El monto debe ser un número"
+    });
+  }
+
+  if (monto <= 0) {
+    return res.status(400).json({
+      error: "El monto debe ser mayor a 0"
+    });
+  }
+
   const nuevoGasto = {
     id: gastos.length + 1,
     descripcion,

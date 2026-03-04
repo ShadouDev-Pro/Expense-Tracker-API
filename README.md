@@ -103,11 +103,11 @@ http://localhost:3000
 
 | Método | Endpoint            | Descripción                  |
 |--------|--------------------|------------------------------|
-| GET    | /api/expenses      | Obtener todos los gastos     |
-| GET    | /api/expenses/:id  | Obtener un gasto por ID      |
-| POST   | /api/expenses      | Crear un nuevo gasto         |
-| PUT    | /api/expenses/:id  | Actualizar un gasto          |
-| DELETE | /api/expenses/:id  | Eliminar un gasto            |
+| GET    | /api/gastos      | Obtener todos los gastos     |
+| GET    | /api/gastos/:id  | Obtener un gasto por ID      |
+| POST   | /api/gastos      | Crear un nuevo gasto         |
+| PUT    | /api/gastos/:id  | Actualizar un gasto          |
+| DELETE | /api/gastos/:id  | Eliminar un gasto            |
 
 ---
 

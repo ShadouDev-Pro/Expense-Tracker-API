@@ -42,11 +42,17 @@ Este proyecto está diseñado siguiendo buenas prácticas de arquitectura backen
 ```
 expense-tracker-api/
 │
-├── index.js
-├── package-lock.json
+├── controllers
+│       └── gastos.controller.js
+├── routes
+│       └── gastos.routes.js
 ├── .gitignore
+├── index.js
+├── LICENSE
+├── package-lock.json
 ├── package.json
 └── README.md
+
 ```
 
 ---
